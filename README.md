@@ -16,5 +16,11 @@ Packages used and a little explanation about then:
 
 **build**: build our app for production;
 
-**dev:server**: start server at development stage with some optimization ( *--transpileOnly* do not verify errors at the files ***.ts** and *--ignorewatch* [folder] that no not transpile the ts files of specific folder );
+**dev:server**: start server at development stage with some optimization like:
+
+	*--transpileOnly*: do not verify errors at the files ***.ts**
+
+	*--ignorewatch* [folder]: that no not transpile the ts files of specific folder );
+
+	*--inspect*: Allow application debug to attach when dev server is running
 
